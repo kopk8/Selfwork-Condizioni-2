@@ -15,7 +15,7 @@ if (user_temperatura < 20 && user_temperatura >= 0) {
 }else if(user_temperatura < -10){
     console.log(`copriti…ancora ti raffreddi`);
     
-}else if(typeof user_temperatura != Number ){
+}else{
     console.log(`indicare la temperatura a numeri`);
     
 }
